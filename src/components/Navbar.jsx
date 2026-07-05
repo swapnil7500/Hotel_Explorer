@@ -29,7 +29,7 @@ export default function Navbar() {
           </span>
           <div className="leading-tight">
             <span className="block font-serif text-xl font-semibold tracking-tight text-white">
-              Sojourn
+             Basera
             </span>
             <span className="block text-[11px] font-medium uppercase tracking-[0.15em] text-amber-200/70">
               Stays &amp; Retreats

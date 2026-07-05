@@ -97,12 +97,11 @@ export default function Home() {
             Curated Stays Across India
           </span>
           <h1 className="font-serif text-3xl font-semibold leading-tight tracking-tight sm:text-5xl">
-            Find your next stay, anywhere in India
+           Welcome!! Find your next stay, anywhere in India
           </h1>
           <p className="mt-4 text-base font-light leading-relaxed text-neutral-200 sm:text-lg">
-            Search {hotels.length > 0 ? hotels.length : "hundreds of"} hotels
-            by city, price, and rating — updated live from the Hotel Search
-            API.
+            Search {hotels.length > 0 ? hotels.length : "hundreds of"} hotels directly
+            by city, price, and rating .
           </p>
         </div>
       </div>
