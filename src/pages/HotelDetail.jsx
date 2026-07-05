@@ -46,12 +46,25 @@ export default function HotelDetail() {
         <p className="text-lg font-semibold text-neutral-700">
           {error || "Hotel not found"}
         </p>
-        <Link
-          to="/"
-          className="mt-4 inline-block rounded-lg bg-brand-500 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-600"
+       <Link
+        to="/"
+        className="group mb-6 inline-flex items-center gap-2 rounded-lg border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-700 shadow-sm transition hover:border-brand-500 hover:bg-brand-50 hover:text-brand-700 hover:shadow-md"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          className="h-4 w-4 transition group-hover:-translate-x-0.5"
         >
-          ← Back to search
-        </Link>
+          <path
+            d="M19 12H5M11 18l-6-6 6-6"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        Back to 
+      </Link>
       </div>
     );
   }

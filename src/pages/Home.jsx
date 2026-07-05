@@ -100,7 +100,7 @@ export default function Home() {
            Welcome!! Find your next stay, anywhere in India
           </h1>
           <p className="mt-4 text-base font-light leading-relaxed text-neutral-200 sm:text-lg">
-            Search {hotels.length > 0 ? hotels.length : "hundreds of"} hotels directly
+            Explore {hotels.length > 0 ? hotels.length : "hundreds of"}+ hotels directly
             by city, price, and rating .
           </p>
         </div>
