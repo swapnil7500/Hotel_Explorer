@@ -83,15 +83,28 @@ export default function Home() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      {/* Hero */}
-      <div className="mb-8 rounded-3xl bg-gradient-to-br from-brand-500 to-brand-700 px-6 py-10 text-white sm:px-10 sm:py-14">
-        <h1 className="text-3xl font-bold sm:text-4xl">
-          Find your next stay, anywhere in India
-        </h1>
-        <p className="mt-2 max-w-xl text-brand-50/90">
-          Search {hotels.length > 0 ? hotels.length : "hundreds of"} hotels by
-          city, price, and rating — updated live from the Hotel Search API.
-        </p>
+     {/* Hero */}
+      <div className="relative mb-8 overflow-hidden rounded-3xl px-6 py-14 text-white shadow-xl sm:px-12 sm:py-20">
+        <img
+          src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80"
+          alt="Luxury hotel poolside"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-neutral-900/85 via-neutral-900/60 to-neutral-900/20" />
+
+        <div className="relative max-w-xl">
+          <span className="mb-3 inline-block rounded-full bg-white/10 px-4 py-1 text-xs font-semibold uppercase tracking-widest text-brand-100 ring-1 ring-white/20 backdrop-blur">
+            Curated Stays Across India
+          </span>
+          <h1 className="font-serif text-3xl font-semibold leading-tight tracking-tight sm:text-5xl">
+            Find your next stay, anywhere in India
+          </h1>
+          <p className="mt-4 text-base font-light leading-relaxed text-neutral-200 sm:text-lg">
+            Search {hotels.length > 0 ? hotels.length : "hundreds of"} hotels
+            by city, price, and rating — updated live from the Hotel Search
+            API.
+          </p>
+        </div>
       </div>
 
       <FilterBar filters={filters} onChange={setFilters} onReset={handleReset} />
