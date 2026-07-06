@@ -63,7 +63,7 @@ export default function HotelDetail() {
             strokeLinejoin="round"
           />
         </svg>
-        Back to 
+        Back to Home
       </Link>
       </div>
     );
