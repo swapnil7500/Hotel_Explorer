@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏨 Sojourn — Hotel Search & Discovery Platform
+# 🏨 Basera — Hotel Search & Discovery Platform
 
 A sleek, responsive hotel search and discovery web app that lets users explore, filter, and compare hotels across India in real time.
 
@@ -17,7 +17,7 @@ A sleek, responsive hotel search and discovery web app that lets users explore, 
 
 ## 📖 Overview
 
-**Sojourn** is a full-featured hotel discovery interface built as a real-world frontend engineering exercise. It consumes a live REST API to deliver search, multi-filter querying, sorting, and pagination across 500+ hotel listings — all wrapped in a polished, hospitality-industry-inspired UI.
+**Basera** is a full-featured hotel discovery interface built as a real-world frontend engineering exercise. It consumes a live REST API to deliver search, multi-filter querying, sorting, and pagination across 500+ hotel listings — all wrapped in a polished, hospitality-industry-inspired UI.
 
 The goal wasn't just to hit an API and render a list — it was to design something that feels like a product a real travel company would ship: considered typography, a cohesive dark/light theme, loading and empty states, and an information-dense filter panel that stays usable on mobile.
 
